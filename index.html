@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Rehan Nawaz</div>
+    <nav>
+        <!-- <div ></div> -->
+        <ul class="yellow-shape">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <span id="tag">MERN STACK DEVELOPER</span>
+      <h1>Hello, my name is <span>Rehan Nawaz</span></h1>
+      <p>
+        I am a Mern Stack Web Developer, i am making a Website Application using ReactJS and NodeJS.
+         You can add more information on the about page.
+      </p>
+      <div class="buttons">
+        <a href="#" class="btn primary">Projects</a>
+        <a href="#" class="btn secondary">LinkedIn</a>
+      </div>
+    </div>
+    <div class="hero-img">
+        <img src="./Assests/user_image.png" alt="Hero Image" />
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects-section">
+    <h2 class="projects-title">Projects</h2>
+
+    <div class="project-card">
+        <div class="project-text">
+            <h3>Project Name</h3>
+            <p>I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.</p>
+            <a href="#" class="view-btn">View Project</a>
+        </div>
+        <div class="project-image">
+            <img src="./Assests/project_pic_1.png" alt="Project 1">
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+            <img src="./Assests/project_pic_2.png" alt="Project 2">
+        </div>
+        <div class="project-text">
+            <h3>Project Name</h3>
+            <p>What was your role, your deliverables, if the project was personal, freelancing.</p>
+            <a href="#" class="view-btn">View Project</a>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-text">
+            <h3>Project Name</h3>
+            <p>You can also add in this description the type of the project, if it was for web, mobile, electron.</p>
+            <a href="#" class="view-btn">View Project</a>
+        </div>
+        <div class="project-image">
+            <img src="./Assests/project_pic_3.png" alt="Project 3">
+        </div>
+    </div>
+
+</section>
+  <section>
+    <h2 class="projects-title">Projects</h2>
+    <form id="contactForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+        <div id="nameError" class="error"></div>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <div id="emailError" class="error"></div>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+        <div id="messageError" class="error"></div>
+
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    <div class="social-icons">
+        <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+        <a href="#"><i class="ri-instagram-fill"></i></a>
+        <a href="#"><i class="ri-mail-fill"></i></a>
+    </div>
+    <p>Madelyn Torff 2023</p>
+</footer>
+  <!-- Bottom Wave -->
+  <div class="absolute bottom-0 left-0 w-full overflow-hidden leading-none">
+    <svg viewBox="0 0 1440 150" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#F9C74F" fill-opacity="1" d="M0,50L80,60C160,70,320,90,480,100C640,110,800,100,960,80C1120,60,1280,30,1360,15L1440,0L1440,150L0,150Z"></path>
+    </svg>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
